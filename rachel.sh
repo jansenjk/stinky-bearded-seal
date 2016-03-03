@@ -2,5 +2,5 @@
 for datafile in "$@"
 do
 	echo ${datafile} #added curly brackets
-	bash goostats -J 100 -r $datafile stats-$datafile
+	bash goostats -J 100 -r $datafile stats-$datafile #I didn't change anything 
 done
